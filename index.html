@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NeuroGame</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>"Złap kulkę" – porusz częścią ciała, by złapać czerwoną kulkę </h1>
+  <div id="menu">
+  <h2>Wybierz część ciała do ćwiczenia:</h2>
+  <div class="button-container">
+    <button data-keypoint="right_wrist" onclick="selectKeypoint('right_wrist')">Prawa ręka</button>
+    <button data-keypoint="left_wrist" onclick="selectKeypoint('left_wrist')">Lewa ręka</button>
+    <button data-keypoint="nose" onclick="selectKeypoint('nose')">Nos</button>
+  </div>
+  <h2>Wybierz poziom trudności</h2>
+  <div class="button-container">
+      <button onclick="startGame(1)">1</button>
+      <button onclick="startGame(2)">2</button>
+      <button onclick="startGame(3)">3</button>
+      <button onclick="startGame(4)">4</button>
+  </div>
+  </div>
+
+  <video id="video" autoplay playsinline style="display: none"></video>
+  <div class="game-container">
+    <canvas id="canvas"></canvas>
+    <button id="restartBtn" class="hidden"> Restartuj grę</button>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/pose-detection"></script>
+  <script src="script.js"></script>
+</body>
+</html>
