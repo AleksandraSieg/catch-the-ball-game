@@ -39,7 +39,7 @@ An educational & rehabilitation coding experiment
 
 Prosta gra rehabilitacyjna sterowana ruchem (nos, prawa lub lewa ręka) z wykorzystaniem **kamery internetowej** i modelu **MoveNet (TensorFlow.js)**.
 
-👉 Zagraj online: [Catch the Ball Game](https://aleksandrasieg.github.io/catch-the-ball-game/)
+Zagraj online: [Catch the Ball Game](https://aleksandrasieg.github.io/catch-the-ball-game/)
 
 ---
 
@@ -66,5 +66,5 @@ Prosta gra rehabilitacyjna sterowana ruchem (nos, prawa lub lewa ręka) z wykorz
 ---
 
 ## Autor
-Projekt rozwijany jako eksperyment edukacyjno-rehabilitacyjny 👩‍⚕️💻
+Projekt rozwijany jako eksperyment edukacyjno-rehabilitacyjny
 
